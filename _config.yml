@@ -1,0 +1,15 @@
+# Site settings
+title: Inner West Damp | Rising damp & sub floor ventilation.
+email: info@innerwestdamp.com
+description: "Inner west damp specialise in rising damp solutions and sub-floor ventilation for your home or business."
+baseurl: ""
+url: "http://innerwestdamp.com.au"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
