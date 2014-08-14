@@ -1657,7 +1657,7 @@ section.features_teasers_wrapper .feature_teaser {
   text-align: center;
   border-right: solid 1px #cccccc;
   overflow: hidden;
-  padding: 30px;
+  padding: 10px 25px;
 }
 section.features_teasers_wrapper .feature_teaser:last-child {
   border-right: solid 0px #cccccc;
@@ -3494,4 +3494,11 @@ blockquote p {
   .portfolio_slider_wrapper #carousel {
     display: none;
   }
+}
+
+/* Additional css by Dave
+---------------------------------------------------*/
+#call_rodney {
+  padding-top: 20px;
+  font-size: 25px;
 }
