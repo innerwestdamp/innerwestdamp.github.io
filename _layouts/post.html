@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+    <body class="sticky_header">
+      <div class="overflow_wrapper">
+
+      {% include header.html %}
+
+
+        <div class="main">
+
+          {{ content }}
+
+
+          {% include footer.html %}
+
+        </div>
+
+        {% include scripts.html %}
+
+      </div>
+    </body>
+</html>
