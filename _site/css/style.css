@@ -8650,5 +8650,18 @@ blockquote p {
   padding-top: 20px;
   font-size: 25px; }
 
+#about_rodney {
+  padding-top: 25px; }
+
 .about {
-  margin-bottom: 50px; }
+  margin-bottom: 60px; }
+
+.contact_logos {
+  margin-top: 20px; }
+  .contact_logos a {
+    margin: 10px; }
+  .contact_logos img {
+    width: 70; }
+
+.contact_filler {
+  margin-bottom: 70px; }

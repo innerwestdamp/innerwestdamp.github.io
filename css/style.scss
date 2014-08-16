@@ -1774,6 +1774,7 @@ section.features_teasers_wrapper .feature_teaser h3 {
 .section_header.elegant.centered small:before {
   left: 20%;
 }
+
 .clients_section .clients_list {
   text-align: center;
 }
@@ -3503,6 +3504,24 @@ blockquote p {
   font-size: 25px;
 }
 
+#about_rodney {
+  padding-top: 25px;
+}
+
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+}
+
+.contact_logos {
+  margin-top: 20px;
+  a {
+    margin: 10px;
+  }
+  img {
+    width: 70
+  }
+}
+
+.contact_filler {
+  margin-bottom: 70px;
 }
