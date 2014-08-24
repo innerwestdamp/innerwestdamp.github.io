@@ -8665,3 +8665,10 @@ blockquote p {
 
 .contact_filler {
   margin-bottom: 70px; }
+
+.damp-image {
+  display: inline; }
+
+.damp-text {
+  display: inline;
+  margin-left: 20px; }
