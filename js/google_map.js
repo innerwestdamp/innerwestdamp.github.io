@@ -9,7 +9,7 @@
 	      // The latitude and longitude to center the map (always required)
 	      // You can find it easily at http://universimmedia.pagesperso-orange.fr/geo/loc.htm
 	      var myLatlng = new google.maps.LatLng(-33.8527613,151.1530718); // Rozelle
-
+           var drummoyne = new google.maps.LatLng(-33.851461,151.1532834); //drummoyne
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                 var mapOptions = {
@@ -31,11 +31,11 @@
                 // Create the Google Map using out element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-	      // Put a marker at the center of the map
-	   //    var marker = new google.maps.Marker({
-    //   		position: myLatlng,
-    //   		map: map,
-    //   		title: 'We are right here!'
-  		// });
+    	      // Put a marker at the center of the map
+    	      var marker = new google.maps.Marker({
+          		position: drummoyne,
+          		map: map,
+          		title: 'We are right here!'
+  		    });
             }
 }())
