@@ -8677,3 +8677,9 @@ blockquote p {
   margin-left: 20px;
   margin-top: 60px;
   max-width: 150px; }
+
+.info-box {
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
