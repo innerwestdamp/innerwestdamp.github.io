@@ -8666,9 +8666,14 @@ blockquote p {
 .contact_filler {
   margin-bottom: 70px; }
 
+.damp-group {
+  height: 180px; }
+
 .damp-image {
-  display: inline; }
+  float: left; }
 
 .damp-text {
-  display: inline;
-  margin-left: 20px; }
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+  max-width: 150px; }

@@ -3526,11 +3526,17 @@ blockquote p {
   margin-bottom: 70px;
 }
 
+.damp-group {
+  height: 180px;
+}
+
 .damp-image {
-  display: inline;
+  float: left;
 }
 
 .damp-text {
-  display: inline;
+  float: left;
   margin-left: 20px;
+  margin-top: 60px;
+  max-width: 150px;
 }
