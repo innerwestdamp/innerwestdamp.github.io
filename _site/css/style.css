@@ -8666,17 +8666,8 @@ blockquote p {
 .contact_filler {
   margin-bottom: 70px; }
 
-.damp-group {
-  height: 180px; }
-
-.damp-image {
-  float: left; }
-
-.damp-text {
-  float: left;
-  margin-left: 20px;
-  margin-top: 60px;
-  max-width: 150px; }
+.damp-symptoms {
+  margin: 16px; }
 
 .info-box {
   background-color: white;
