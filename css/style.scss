@@ -3527,7 +3527,7 @@ blockquote p {
 }
 
 .damp-symptoms {
-  margin: 16px
+  margin: 16px;
 }
 
 .info-box {
@@ -3535,4 +3535,17 @@ blockquote p {
   border: 1px solid #dddddd;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+.problem-text {
+  padding-top: 15px;
+}
+
+.subfloor-section {
+  margin-top: 20px;
+}
+
+.footer-well {
+margin-top: 25px;
+background-color: rgba(66, 139, 202, 0.6);
 }
