@@ -517,6 +517,13 @@ jQuery(window).load(function(){
             onLoadEnd:      function() { onepageportfoliocaptionOn(); activityIndicatorOff(); }
         });
 
+        var instanceI = jQuery( 'a.home_lightbox' ).imageLightbox(
+        {
+            onStart:        function() { overlayOn(); closeButtonOn( instanceI ); },
+            onEnd:          function() { overlayOff(); closeButtonOff(); activityIndicatorOff(); },
+            onLoadStart:    function() { activityIndicatorOn(); },
+            onLoadEnd:      function() { activityIndicatorOff(); }
+        });
     }
     //END---Lightbox with ALL its settings--------------
 
