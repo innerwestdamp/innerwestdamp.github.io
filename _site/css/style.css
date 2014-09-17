@@ -6092,8 +6092,8 @@ header {
   margin: 33px 0px 0px 0; }
 
 .logo a.brand {
-  height: 30px;
-  line-height: 30px;
+  height: 45px;
+  line-height: 45px;
   margin: 0px 0;
   padding: 0px;
   overflow: hidden;
@@ -6101,14 +6101,14 @@ header {
 
 .logo a.brand img {
   float: left;
-  margin: 2px 8px 2px 0;
-  height: 26px; }
+  margin: 1px 8px 1px 0;
+  height: 41px; }
 
 .logo a.brand span.logo_title {
-  height: 30px;
-  font-size: 32px;
-  line-height: 30px;
-  font-weight: 800;
+  height: 40px;
+  font-size: 35px;
+  line-height: 40px;
+  font-family: 'Raleway', sans-serif;
   display: block;
   float: left;
   -webkit-transition: all 500ms ease;
@@ -8687,3 +8687,9 @@ blockquote p {
 
 .portfolio_strict {
   margin-top: 50px; }
+
+#contact-email {
+  color: white; }
+
+#logo-damp {
+  color: #0066CC; }
