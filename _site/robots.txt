@@ -1,6 +1,0 @@
-User-Agent: *
-Allow: /
-
-
-Sitemap: http:///sitemap.xml
-Sitemap: http:///sitemap-video.xml
