@@ -1,7 +1,0 @@
----
----
-User-Agent: *
-
-
-Sitemap: http://{{site.domain}}/sitemap.xml
-Sitemap: http://{{site.domain}}/sitemap-video.xml
