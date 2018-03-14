@@ -8696,3 +8696,13 @@ blockquote p {
 
 #contact-call {
   color: white; }
+
+#star {
+  font-size: 1.4em;
+  color: #E4B248; }
+
+.googlereview {
+  font-size: 0.8em; }
+
+.review {
+  padding: 10px; }
