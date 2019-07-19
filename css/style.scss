@@ -932,11 +932,11 @@ header {
   width: 430px;
   max-height: 100px;
   float: left;
-  margin: 33px 0px 0px 0;
+  margin: 0px 0px 0px 0;
 }
 .logo a.brand {
-  height: 45px;
-  line-height: 45px;
+  height: 100px;
+  line-height: 100px;
   margin: 0px 0;
   padding: 0px;
   overflow: hidden;
@@ -945,10 +945,11 @@ header {
 .logo a.brand img {
   float: left;
   margin: 1px 8px 1px 0;
-  height: 41px;
+  height: 100px;
 }
 .logo a.brand span.logo_title {
   height: 40px;
+  margin-top: 30px;
   font-size: 35px;
   line-height: 40px;
   font-family: 'Raleway', sans-serif;
