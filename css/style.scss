@@ -3566,6 +3566,11 @@ background-color: rgba(66, 139, 202, 0.6);
 #contact-call {
   color: white;
 }
+// deal with safari making the link blue on mobile
+a[href^=tel] {
+   text-decoration:inherit;
+   color: inherit;
+}
 
 #star {
   font-size: 1.4em;

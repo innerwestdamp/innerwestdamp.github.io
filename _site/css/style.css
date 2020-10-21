@@ -8697,6 +8697,10 @@ blockquote p {
 #contact-call {
   color: white; }
 
+a[href^=tel] {
+  text-decoration: inherit;
+  color: inherit; }
+
 #star {
   font-size: 1.4em;
   color: #E4B248; }
